@@ -1,0 +1,151 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+p {
+    font-size: 1.3em; /* 字体放大为1.3倍 */
+    line-height: 1.6;
+}
+
+/* 图片放大并使文字包围 */
+
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #ff6600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 通用样式 */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* 图片展示九宫格 */
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+ li {
+    text-align: center;
+}
+
+/* 图片设置 */
+nav li img {
+    width: 120px; /* 设置图片宽度 */
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* 让“伊布”居中 */
+nav ul li:nth-child(9) img {
+    margin: 0 auto;
+}
+
+/* 每个列表项的标题 */
+nav ul li b {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* 居中显示内容 */
+navul li {
+    text-align: center;
+}
+
+
+/* 统一调整伊布相关图片的大小 */
+.x {
+    width: 600px;  /* 你可以根据需要调整宽度 */
+    height: auto;  /* 高度自动调整，保持图片比例 */
+    margin: 25px ;  /* 图片之间添加垂直间距 */
+}
+.yibu{
+    width:1000px;
+    height:auto;
+    margin:40px ;
+}
